@@ -1,0 +1,91 @@
+
+.álignThat {
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.title {
+
+    font-size: 18px;
+    color: #031723;
+    text-align: center;
+}
+.álignThat a {
+    background-color: #94c0d4;
+    color: #031723;
+    padding: 12px 21px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 8px solid #357dc5;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+.number {
+    font-size: 36px;
+    color: #031723;
+    margin-bottom: 10px;
+}
+.content_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+}
+
+.image_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.image_section img {
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.brief_section h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.brief_section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.brief_section p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.image_section {
+    position: relative;
+}
+
+.data_first_title_video {
+    position: absolute;
+    top: 0;
+    right: 250px;
+}
